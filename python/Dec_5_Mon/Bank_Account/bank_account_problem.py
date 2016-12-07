@@ -26,11 +26,14 @@ class Account:
 
 
     def withdraw(self, withdraw_amount):
-        if self.balance < withdraw_amount:
-            print("Not enough money to withdraw {0}.  Your current balance is {1}").format()
-
+        self.balance -= withdraw_amount
+        #print("Not enough money to withdraw {0}.  Your current balance is {1}".format())
         self.transaction_history.append("Withdrew " + str(withdraw_amount))
 
+    def print_trans_history(self):
+        for i in self.transaction_history:
+            print(i)
 
-account_1 = BankAccount('Matthew', "Jones", '2500')
-print(account_1.initial_deposit)
+'''
+an Account class a Checking class and a Savings class
+'''
