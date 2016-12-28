@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Favorite Foods List</title>
+
+</head>
+<body>
+
+    <div id="divOne">
+
+    </div>
+
+    <script type="text/javascript">
+    document.write("<h1> Favorite Foods List! </h1>");
+
+    var unorderlist = document.createElement("ul");
+    unorderlist.setAttribute("id", "favefood");
+    document.getElementById("divOne").appendChild(unorderlist);
+
+
+
+
+    var foodList = [];
+
+    for (i = 0; i < 5; i++){
+        var foodListInput = prompt("What is a list of your 5 favorite foods? >> ");
+        foodList.push(foodListInput);
+        var listItem = document.createElement("li");
+        document.getElementById("favefood").appendChild(listItem);
+        listItem.innerHTML = foodListInput;
+
+        console.log(foodList);
+    }
+
+
+
+    </script>
+
+
+
+
+
+<script src="script_2.js"></script>
+</body>
+</html>
