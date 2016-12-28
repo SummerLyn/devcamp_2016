@@ -1,0 +1,66 @@
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+}
+.smallbox1 {
+    background-color: darkred;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+}
+
+.smallbox2 {
+    background-color: darkred;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+}
+
+.smallbox3 {
+    background-color: darkred;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+}
+
+.smallbox4 {
+    background-color: darkred;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+}
+
+.smallbox5 {
+    background-color: darkred;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+}
+
+.smallbox6 {
+    background-color: darkred;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+}
+
+
