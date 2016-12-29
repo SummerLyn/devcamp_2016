@@ -1,0 +1,111 @@
+body {
+    margin:0;
+}
+
+.container {
+    display: flex;
+}
+
+
+.sidebar {
+    margin:0;
+    background-color: black;
+    height: 100vh;
+    width: 20vh;
+}
+
+#sbone {
+    background-color: white;
+    height: 75px;
+    width: 75px;
+    margin: 25px;
+}
+
+
+#sbtwo {
+    background-color: white;
+    height: 15px;
+    width: 75px;
+    margin: 0px;
+
+}
+#sbthree {
+    background-color: white;
+    height: 15px;
+    width: 95px;
+    margin: 10px;
+}
+#sbfour {
+    background-color: white;
+    height: 15px;
+    width: 85px;
+    margin: 10px;
+}
+
+#sbfive {
+    background-color: white;
+    height: 15px;
+    width: 75px;
+    margin: 10px;
+}
+
+.boxtwo {
+    background-color: lightgray;
+    height: 100vh;
+    width: 100vh;
+}
+
+#one {
+    background-color: black;
+    height: 35px;
+    width: 200px;
+    margin:25px;
+}
+
+#two {
+    background-color: black;
+    height: 300px;
+    width: 500px;
+    margin:25px;
+}
+
+#three {
+    background-color: black;
+    height: 75px;
+    width: 75px;
+    margin:25px;
+}
+
+#three {
+    background-color: black;
+    height: 75px;
+    width: 75px;
+    margin:25px;
+}
+
+#four {
+    background-color: black;
+    height: 75px;
+    width: 75px;
+    margin:25px;
+}
+#five {
+    background-color: black;
+    height: 75px;
+    width: 75px;
+    margin:25px;
+}
+
+#six {
+    background-color: black;
+    height: 75px;
+    width: 75px;
+    margin:25px;
+}
+
+#seven {
+    background-color: black;
+    height: 75px;
+    width: 75px;
+    margin:25px;
+}
