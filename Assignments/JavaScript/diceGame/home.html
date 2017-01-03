@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dice</title>
+    <link rel="stylesheet" href="diceStyles.css">
+    <link rel="images" href="images">
+    <!--- Importing regular jQuery --->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!--- Importing UI jQuery --->
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+</head>
+<body>
+    <h1> Dice Game</h1>
+    <p> How many die do you wish to roll?</p>
+    <input id="myText" name="dieNumber"> <br>
+    <button id="myButton"> Roll </button>
+    <div id="dice" > </div>
+
+
+
+    <script type="text/javascript">
+        var images = ['dice1.jpg', 'dice2.jpg', 'dice3.jpg', 'dice4.jpg', 'dice5.jpg', 'dice6.jpg'];
+      /*  var random_image = Math.floor(Math.random() * images.length);
+        document.getElementById("dice").src = images[random_image]; */
+        /* */
+
+        $('#myButton').click(function() {
+            var diceNumber = $('#myText').val();
+            console.log(diceNumber);
+
+
+
+        /* This is working!!! But it keeps adding everytime to the element, I have to refresh.
+        Also, I tried making it where if the input is 0 or greater than 6 it breaks out the loop, but it broke it.  */
+               for (var i = 1; i <= diceNumber; i++) {
+
+                 $('<img src="images/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#dice');
+                    if(diceNumber === null) { break; }
+
+               }
+
+                });
+
+    </script>
+
+
+
+
+    <script src="diceScript.js"></script>
+</body>
+</html>
