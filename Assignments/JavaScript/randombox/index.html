@@ -4,53 +4,29 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="../../../Dec_29_Thurs/jquery-3.1.1.min.js"></script>
 </head>
 <body>
 
-    <!---
-    <p id="text"> This is some text.</p>
-    <button id="myButton">Change Text</button>
-    <button id="resetButton">Reset Text</button>
-    ---->
-    <!---
-    <div id="lightbulb">Off</div>
-    <button id="myOnButton" onclick= changelight("lightbulb")>ON/OFF</button>
-    --->
+
+
     <div class="container">
         <div class="container1">
-            <div class="smallbox1" id="box1" onclick= changeBox("box")> </div>
-            <div class="smallbox2" id="box2" onclick= changeBox("box")> </div>
-            <div class="smallbox3" id="box3" onclick= changeBox("box")> </div>
+            <div class="smallbox1" id="box1"> </div>
+            <div class="smallbox2" id="box2"> </div>
+            <div class="smallbox3" id="box3"> </div>
         </div>
 
         <div class="container2">
-            <div class="smallbox4" id="box4" onclick= changeBox("box")> </div>
-            <div class="smallbox5" id="box5" onclick= changeBox("box")> </div>
-            <div class="smallbox6" id="box6" onclick= changeBox("box")> </div>
+            <div class="smallbox4" id="box4"> </div>
+            <div class="smallbox5" id="box5"> </div>
+            <div class="smallbox6" id="box6"> </div>
         </div>
     </div>
 
-    <button id="boxbutton" onclick= changeColor()> Change Color </button>
- <!---
-    <h1 id="welcome"></h1>
-    <input id="myInput" type="text" value=""/>
-    <button id="myButton" onclick = createHeader()>Get Text</button>
-    <---
+    <button id="boxbutton" onclick="changeColor()">  Change Color </button>
 
 
-
-   <!--- you will not put a script tag in the html file
-    <script>
-
-            document.getElementById("myButton").onclick = function() {
-            document.getElementById("text").innerHTML = "You have changed the text!";
-            document.getElementById("text").style.color = "crimson";
-            }
-            document.getElementById("resetButton").onclick = function() {
-                document.getElementById("text").innerHTML = "This is some text";
-             document.getElementById("text").style.color = "#000000";
-         }</script>
-         --->
-  <script src="randomBoxColor.js"></script>
+ <script src="randomBoxColor.js"></script>
 </body>
 </html>

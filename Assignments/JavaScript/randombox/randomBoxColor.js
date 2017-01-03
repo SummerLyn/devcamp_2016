@@ -12,7 +12,6 @@ function makeRandomColor() {
 }
 
 function changeColor() {
-
     document.getElementById('box1').style.backgroundColor = makeRandomColor();
     document.getElementById('box2').style.backgroundColor = makeRandomColor();
     document.getElementById('box3').style.backgroundColor = makeRandomColor();
